@@ -4,7 +4,7 @@ mkTarget {
     (
       { fonts }:
       {
-        fonts.packages = [ fonts.monospace ];
+        fonts.packages = [ fonts.monospace.package ];
         services.kmscon = {
           config = {
             font-name = fonts.monospace.name;
