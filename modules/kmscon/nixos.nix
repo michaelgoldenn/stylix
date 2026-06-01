@@ -6,7 +6,6 @@ mkTarget {
       {
         fonts.packages = [ fonts.monospace ];
         services.kmscon = {
-          fonts.packages = [ fonts.monospace ];
           config = {
             font-name = fonts.monospace.name;
             font-size = fonts.sizes.terminal;
